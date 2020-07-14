@@ -33,8 +33,8 @@ public:
             GrantPriviledge( L"SeLoadDriverPrivilege" );
             LoadFuncs();
 
-            SymbolLoader sl;
-            sl.Load( g_symbols );
+            //SymbolLoader sl;
+            //sl.Load( g_symbols );
 
             NameResolve::Instance().Initialize();
         }
